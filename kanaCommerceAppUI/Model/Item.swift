@@ -20,8 +20,8 @@ struct Item: Codable, Equatable {
     enum Category: String, Codable {
         case electronics
         case jewelery
-        case menClothing = "men clothing"
-        case womenClothing = "women clothing"
+        case menClothing = "men`s clothing"
+        case womenClothing = "women`s clothing"
     }
     
     let id: Int

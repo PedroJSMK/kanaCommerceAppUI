@@ -57,7 +57,7 @@ class ItemTest: XCTestCase {
                                     \"id\": 1,
                                     \"title\": \"Product\",
                                     \"price\": 12.99,
-                                    \"category\": \"men clothing\",
+                                    \"category\": \"men`s clothing\",
                                     \"description\": \"Description\",
                                     \"image\": \"http://image.com\"
                                 }
