@@ -2,7 +2,7 @@
 //  ProductAPITeste.swift
 //  kanaCommerceAppUITests
 //
-//  Created by Pedro Kanagusto on 01/10/21.
+//  Created by PedroJSMK on 01/10/21.
 //
 
 import XCTest

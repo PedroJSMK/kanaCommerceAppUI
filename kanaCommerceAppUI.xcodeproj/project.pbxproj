@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		234A44D527073F9F0093E416 /* ProductAPITeste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234A44D427073F9F0093E416 /* ProductAPITeste.swift */; };
+		234A44D727074BC20093E416 /* MockItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234A44D627074BC20093E416 /* MockItems.swift */; };
 		237C51082707284F0095B5E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C51072707284F0095B5E1 /* ContentView.swift */; };
 		237C510A270728510095B5E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237C5109270728510095B5E1 /* Assets.xcassets */; };
 		237C510D270728510095B5E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237C510C270728510095B5E1 /* Preview Assets.xcassets */; };
@@ -54,6 +55,7 @@
 
 /* Begin PBXFileReference section */
 		234A44D427073F9F0093E416 /* ProductAPITeste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAPITeste.swift; sourceTree = "<group>"; };
+		234A44D627074BC20093E416 /* MockItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockItems.swift; sourceTree = "<group>"; };
 		237C51002707284E0095B5E1 /* kanaCommerceAppUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kanaCommerceAppUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		237C51072707284F0095B5E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		237C5109270728510095B5E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				237C513A27072D180095B5E1 /* Model */,
 				237C511A270728520095B5E1 /* kanaCommerceAppUITests.swift */,
 				237C511C270728520095B5E1 /* Info.plist */,
+				234A44D627074BC20093E416 /* MockItems.swift */,
 				234A44D427073F9F0093E416 /* ProductAPITeste.swift */,
 			);
 			path = kanaCommerceAppUITests;
@@ -328,6 +331,7 @@
 			files = (
 				237C513C27072D4B0095B5E1 /* ItemTest.swift in Sources */,
 				234A44D527073F9F0093E416 /* ProductAPITeste.swift in Sources */,
+				234A44D727074BC20093E416 /* MockItems.swift in Sources */,
 				237C511B270728520095B5E1 /* kanaCommerceAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

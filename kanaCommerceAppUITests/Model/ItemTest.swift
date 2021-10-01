@@ -43,28 +43,11 @@ class ItemTest: XCTestCase {
     
     func testItem_decodeJSONString_ShouldDecodeToItem() throws {
         
-        let expectedItem = Item(
-            id: 1,
-            name: "Product",
-            price: 12.99,
-            category: .menClothing,
-            description: "Description",
-            imageStringURL: "http://image.com"
-        )
+        let expectedItem = MockItems.parsedItem
         let decoder = JSONDecoder()
-        let JSONString = """
-                                {
-                                    \"id\": 1,
-                                    \"title\": \"Product\",
-                                    \"price\": 12.99,
-                                    \"category\": \"men`s clothing\",
-                                    \"description\": \"Description\",
-                                    \"image\": \"http://image.com\"
-                                }
-                             """
-        let data = JSONString.data(using: .utf8)!
         
-        let decodedValue = try decoder.decode(Item.self, from: data)
+ 
+        let decodedValue = try decoder.decode(Item.self, from: MockItems.validItemData)
         
         XCTAssertEqual(expectedItem, decodedValue)
     }
