@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		237C51042707284E0095B5E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C51032707284E0095B5E1 /* AppDelegate.swift */; };
-		237C51062707284F0095B5E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C51052707284F0095B5E1 /* SceneDelegate.swift */; };
 		237C51082707284F0095B5E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C51072707284F0095B5E1 /* ContentView.swift */; };
 		237C510A270728510095B5E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237C5109270728510095B5E1 /* Assets.xcassets */; };
 		237C510D270728510095B5E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237C510C270728510095B5E1 /* Preview Assets.xcassets */; };
 		237C5110270728510095B5E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237C510E270728510095B5E1 /* LaunchScreen.storyboard */; };
 		237C511B270728520095B5E1 /* kanaCommerceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C511A270728520095B5E1 /* kanaCommerceAppUITests.swift */; };
 		237C5126270728520095B5E1 /* kanaCommerceAppUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C5125270728520095B5E1 /* kanaCommerceAppUIUITests.swift */; };
+		237C5135270729F80095B5E1 /* kanaCommerceCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237C5134270729F80095B5E1 /* kanaCommerceCore.framework */; };
+		237C5136270729F80095B5E1 /* kanaCommerceCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 237C5134270729F80095B5E1 /* kanaCommerceCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		237C513C27072D4B0095B5E1 /* ItemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C513B27072D4B0095B5E1 /* ItemTest.swift */; };
+		237C513F27072DDF0095B5E1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C513E27072DDF0095B5E1 /* Item.swift */; };
+		237C514127072EA10095B5E1 /* kanacommerceAppp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C514027072EA10095B5E1 /* kanacommerceAppp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +37,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		237C5137270729F80095B5E1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				237C5136270729F80095B5E1 /* kanaCommerceCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		237C51002707284E0095B5E1 /* kanaCommerceAppUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kanaCommerceAppUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		237C51032707284E0095B5E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		237C51052707284F0095B5E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		237C51072707284F0095B5E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		237C5109270728510095B5E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		237C510C270728510095B5E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -49,6 +64,10 @@
 		237C5121270728520095B5E1 /* kanaCommerceAppUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kanaCommerceAppUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		237C5125270728520095B5E1 /* kanaCommerceAppUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kanaCommerceAppUIUITests.swift; sourceTree = "<group>"; };
 		237C5127270728520095B5E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		237C5134270729F80095B5E1 /* kanaCommerceCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = kanaCommerceCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		237C513B27072D4B0095B5E1 /* ItemTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTest.swift; sourceTree = "<group>"; };
+		237C513E27072DDF0095B5E1 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		237C514027072EA10095B5E1 /* kanacommerceAppp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kanacommerceAppp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				237C5135270729F80095B5E1 /* kanaCommerceCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +103,7 @@
 				237C5119270728520095B5E1 /* kanaCommerceAppUITests */,
 				237C5124270728520095B5E1 /* kanaCommerceAppUIUITests */,
 				237C51012707284E0095B5E1 /* Products */,
+				237C5133270729F80095B5E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +120,8 @@
 		237C51022707284E0095B5E1 /* kanaCommerceAppUI */ = {
 			isa = PBXGroup;
 			children = (
-				237C51032707284E0095B5E1 /* AppDelegate.swift */,
-				237C51052707284F0095B5E1 /* SceneDelegate.swift */,
+				237C513D27072DCB0095B5E1 /* Model */,
+				237C514027072EA10095B5E1 /* kanacommerceAppp.swift */,
 				237C51072707284F0095B5E1 /* ContentView.swift */,
 				237C5109270728510095B5E1 /* Assets.xcassets */,
 				237C510E270728510095B5E1 /* LaunchScreen.storyboard */,
@@ -121,6 +142,7 @@
 		237C5119270728520095B5E1 /* kanaCommerceAppUITests */ = {
 			isa = PBXGroup;
 			children = (
+				237C513A27072D180095B5E1 /* Model */,
 				237C511A270728520095B5E1 /* kanaCommerceAppUITests.swift */,
 				237C511C270728520095B5E1 /* Info.plist */,
 			);
@@ -136,6 +158,30 @@
 			path = kanaCommerceAppUIUITests;
 			sourceTree = "<group>";
 		};
+		237C5133270729F80095B5E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				237C5134270729F80095B5E1 /* kanaCommerceCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		237C513A27072D180095B5E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				237C513B27072D4B0095B5E1 /* ItemTest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		237C513D27072DCB0095B5E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				237C513E27072DDF0095B5E1 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +192,7 @@
 				237C50FC2707284E0095B5E1 /* Sources */,
 				237C50FD2707284E0095B5E1 /* Frameworks */,
 				237C50FE2707284E0095B5E1 /* Resources */,
+				237C5137270729F80095B5E1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -266,8 +313,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				237C51042707284E0095B5E1 /* AppDelegate.swift in Sources */,
-				237C51062707284F0095B5E1 /* SceneDelegate.swift in Sources */,
+				237C513F27072DDF0095B5E1 /* Item.swift in Sources */,
+				237C514127072EA10095B5E1 /* kanacommerceAppp.swift in Sources */,
 				237C51082707284F0095B5E1 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				237C513C27072D4B0095B5E1 /* ItemTest.swift in Sources */,
 				237C511B270728520095B5E1 /* kanaCommerceAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

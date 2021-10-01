@@ -2,10 +2,11 @@
 //  ContentView.swift
 //  kanaCommerceAppUI
 //
-//  Created by Pedro Kanagusto on 01/10/21.
+//  Created by PedroJSMK on 01/10/21.
 //
 
 import SwiftUI
+import kanaCommerceCore
 
 struct ContentView: View {
     var body: some View {
